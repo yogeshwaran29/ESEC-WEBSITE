@@ -1,0 +1,104 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ESEC</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <h1>ESEC</h1>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSES OFFERED</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Courses</h1>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>We are offering the following courses.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Circuit Branches</h3>
+                <p>It comprises of Electrical & Electronics Engineering (EEE), Electronics & Communication Engineering (ECE), Computer Science & Engineering (CSE) and Information Technology (IT) on a broad classification.</p>
+            </div>
+            <div class="course-col">
+                <h3>Non-Circuit Branches</h3>
+                <p>The Branches of civil, mechanical, chemical are some of the non-circuit branches we offer in our College.</p>
+            </div>
+            <div class="course-col">
+                <h3>PG Courses</h3>
+                <p>We also offer Several PG courses in both Engineering and Administrative Domain.</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Our Facilities</h1>
+        <p>We have Even more places to Explore.</p>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/library.png">
+                    <h3>World Class Library</h3>
+                    <p>Books with tons of information were kept in a high class library for the use of students.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/playground.png">
+                    <h3>Largest Play Ground</h3>
+                    <p>Vast playground with good quality physical directors to enhance Sportmanship.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/cafeteria (1).png">
+                    <h3>Tasty and Healthy Food</h3>
+                    <p>Tasty as well as healthy food for our students who resides inside our college campus.</p>
+                </div>
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>Erode Sengunthar Engineering College strives with determination and commitment to provide and promote world-class Technical Education, in particular to the students of backward rural areas, transforming them into holistic personalities embedded with discipline, skill and responsibility that make them patriotic, successful, and self-developed professionals ready to accomplish any job in their career and life.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by ESEC</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    
